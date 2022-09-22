@@ -245,9 +245,9 @@ if ("serviceWorker" in navigator) {
     Notification.requestPermission((result) => {
       if (result === "granted") {
         navigator.serviceWorker.ready.then((registration) => {
-          registration.showNotification("Saylani Notification", {
-            body: "Notification from #news#",
-            icon: "./logo",
+          registration.showNotification("#News# Notification", {
+            body: "Notification from #News#",
+            icon: "./logonews.jpg",
             vibrate: [200, 100, 200, 100, 200, 100, 200],
             tag: "vibration-sample",
           });
