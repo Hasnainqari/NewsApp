@@ -1,0 +1,43 @@
+{
+    "name": "#News#",
+    "short_name": "Live News",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "72x72"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "96x96"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png","sizes": "128x128"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "152x152"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "384x384"
+      },
+      {
+        "src": "/logo",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ]
+  }
