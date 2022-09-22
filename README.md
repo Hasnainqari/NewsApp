@@ -1,3 +1,3 @@
 # NewsApp
  JavaScript Assignment
-newsapp-hq.netlify.app
+[https//newsapp-hq.netlify.app](https://newsapp-hq.netlify.app/)
