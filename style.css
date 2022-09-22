@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Josefin;
+    src: url(./Josefin_Sans/static/JosefinSans-Light.ttf)
+}
+@font-face {
+    font-family: Inspiration;
+    src: url(./Inspiration/Inspiration-Regular.ttf);
+}
+div ul li{
+    font-family: Josefin;
+}
+div h5 span{
+    font-family:Inspiration ;
+}
+div nav h5 {
+    font-size: 40px;
+    font-family:Inspiration ;
+}
