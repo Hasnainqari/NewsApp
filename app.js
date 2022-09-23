@@ -14,7 +14,7 @@ const newsdetails = document.getElementById("newsdetails");
 var newsDataArr = [];
 
 // apis 
-const API_KEY = "";
+const API_KEY = "2129e27221754ea99de5b62518a01131";
 const HEADLINES_NEWS = "https://newsapi.org/v2/top-headlines?country=in&apiKey=";
 const GENERAL_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=";
 const BUSINESS_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=";
@@ -30,7 +30,7 @@ window.onload = function() {
 
 
 generalBtn.addEventListener("click",function(){
-    newsType.innerHTML="<h4>General news</h4>";
+    newsType.innerHTML="<h4>All news</h4>";
     fetchGeneralNews();
 });
 
